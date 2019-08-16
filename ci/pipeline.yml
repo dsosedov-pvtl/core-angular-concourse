@@ -1,0 +1,12 @@
+---
+resources:
+  - name: core-angular-concourse
+    type: git
+    source: {uri: "https://github.com/dsosedov-pvtl/core-angular-concourse"}
+
+jobs:
+  - name: build
+    public: true
+    plan:
+      - get: core-angular-concourse
+        trigger: true

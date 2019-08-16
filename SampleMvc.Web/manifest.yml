@@ -1,5 +1,6 @@
 ---
 applications:
-  - name: dsosedov-sample-dotnet-web-mvc
+  - name: core-angular-concourse
     memory: 128M
     disk_quota: 512M
+    route: dsosedov-core-angular-concourse
