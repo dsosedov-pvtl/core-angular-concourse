@@ -1,0 +1,5 @@
+---
+applications:
+  - name: dsosedov-sample-dotnet-web-mvc
+    memory: 128M
+    disk_quota: 512M
