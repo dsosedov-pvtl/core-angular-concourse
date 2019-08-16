@@ -10,3 +10,6 @@ jobs:
     plan:
       - get: core-angular-concourse
         trigger: true
+      - task: dotnet-build
+        run:
+          path: ls
